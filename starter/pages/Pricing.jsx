@@ -1,11 +1,9 @@
 // Uses the same styles as Product
-import PageNave from "../pageNave/PageNave";
 import styles from "./Product.module.css";
 
 export default function Product() {
   return (
     <main className={styles.product}>
-      <PageNave />
       <section>
         <div>
           <h2>
@@ -19,10 +17,7 @@ export default function Product() {
             voluptatem iste.
           </p>
         </div>
-        <img
-          src="../../../img-2.jpg"
-          alt="overview of a large city with skyscrapers"
-        />
+        <img src="img-2.jpg" alt="overview of a large city with skyscrapers" />
       </section>
     </main>
   );
